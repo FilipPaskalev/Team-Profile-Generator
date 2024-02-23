@@ -7,14 +7,14 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
   "keywords": [
     "team",
     "profile",
     "generator",
     "node.js",
-    "javavscript",
+    "JavaScript",
     "jest",
     "MIT"
   ],
