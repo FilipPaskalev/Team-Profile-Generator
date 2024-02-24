@@ -12,11 +12,11 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test employee": "jest Employee",
-    "test engineer": "jest Engineer",
-    "test intern": "jest Intern",
-    "test manager": "jest Manager",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "test employee": "test Employee",
+    "test engineer": "test Engineer",
+    "test intern": "test Intern",
+    "test manager": "test Manager"
   },
   "keywords": [
     "node.js",
@@ -31,8 +31,8 @@
     "tdd",
     "jsdoc"
   ],
-  "author": "FilipPaskelev",
-  "license": "ISC",
+  "author": "Filip Paskalev",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FilipPaskalev/Team-Profile-Generator/issues"
   },
