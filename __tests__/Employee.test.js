@@ -1,4 +1,5 @@
 const Employee = require("../lib/Employee");
+const EnumEmployeeType = require("../lib/EnumEmployeeType");
 
 test("Can instantiate Employee instance", () => {
   const employee = new Employee();
@@ -48,8 +49,8 @@ test("Can get email via getEmail()", () => {
   expect(employee.getEmail()).toBe(testValue);
 });
 
-test('getRole() should return "Employee"', () => {
-  const testValue = "Employee";
+test(`getRole() should return "${EnumEmployeeType.EMPLOYEE}"`, () => {
+  const testValue = EnumEmployeeType.EMPLOYEE;
   const employee = new Employee("Alice", 1, "alica@gmail.com");
 
   expect(employee.getRole()).toBe(testValue);
