@@ -1,4 +1,5 @@
 const Manager = require("../lib/Manager");
+const EnumEmployeeType = require("../lib/EnumEmployeeType");
 
 test("Can set office number via constructor argument", () => {
   const testValue = 100;
@@ -7,8 +8,8 @@ test("Can set office number via constructor argument", () => {
   expect(employee.officeNumber).toBe(testValue);
 });
 
-test('getRole() should return "Manager"', () => {
-  const testValue = "Manager";
+test(`getRole() should return "${EnumEmployeeType.MANAGER}"`, () => {
+  const testValue = EnumEmployeeType.MANAGER;
   const employee = new Manager("Lily", 1, "lily@gmail.com", 100);
 
   expect(employee.getRole()).toBe(testValue);

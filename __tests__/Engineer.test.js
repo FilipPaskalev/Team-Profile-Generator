@@ -1,4 +1,5 @@
 const Engineer = require("../lib/Engineer");
+const EnumEmployeeType = require("../lib/EnumEmployeeType");
 
 test("Can set GitHUb account via constructor", () => {
   const testValue = "GitHubUser";
@@ -7,8 +8,8 @@ test("Can set GitHUb account via constructor", () => {
   expect(employee.github).toBe(testValue);
 });
 
-test('getRole() should return "Engineer"', () => {
-  const testValue = "Engineer";
+test(`getRole() should return "${EnumEmployeeType.ENGINEER}"`, () => {
+  const testValue = EnumEmployeeType.ENGINEER;
   const employee = new Engineer(
     "Muhammad",
     1,
