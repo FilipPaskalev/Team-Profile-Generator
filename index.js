@@ -1,3 +1,8 @@
+// Node modules
+const inquirer = require("inquirer");
+const path = require("path");
+const fs = require("fs");
+
 // Classes
 const Employee = require("./lib/Employee");
 const Manager = require("./lib/Manager");
@@ -6,11 +11,6 @@ const Intern = require("./lib/Intern");
 
 // Enumerations
 const EmployeeTypeEnum = require("./lib/EmployeeTypeEnum");
-
-// Node modules
-const inquirer = require("inquirer");
-const path = require("path");
-const fs = require("fs");
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
