@@ -17,3 +17,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor#examples
+
+### Jest
+https://jestjs.io/docs/cli#--testnamepatternregex

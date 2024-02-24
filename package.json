@@ -12,11 +12,11 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "jest --verbose test/*",
-    "test employee": "jest employee.test.js",
-    "test engineer": "jest Engineer.test.js",
-    "test intern": "jest Intern.test.js",
-    "test manager": "jest Manager.test.js"
+    "test employee": "jest Employee",
+    "test engineer": "jest Engineer",
+    "test intern": "jest Intern",
+    "test manager": "jest Manager",
+    "test": "jest --verbose"
   },
   "keywords": [
     "node.js",
