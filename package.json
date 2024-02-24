@@ -7,7 +7,12 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "start": "node index.js",
+    "test": "jest --verbose test/*",
+    "test employee": "jest employees.test.js",
+    "test engineer": "jest engineer.test.js",
+    "test intern": "jest intern.test.js",
+    "test manager": "jest manager.test.js"
   },
   "keywords": [
     "team",
