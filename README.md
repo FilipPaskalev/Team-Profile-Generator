@@ -5,10 +5,11 @@ TODO
 ## Resources
 
 ### NPM
-https://docs.npmjs.com/cli/v6/using-npm/scripts
 https://www.geeksforgeeks.org/introduction-to-npm-scripts/
+https://docs.npmjs.com/cli/v10/using-npm/scripts
 https://docs.npmjs.com/cli/v6/commands/npm-test
 https://docs.npmjs.com/cli/v6/commands/npm-start
+https://www.knowledgehut.com/blog/web-development/package-json-scripts-node-js
 
 ### JavaScript
 https://www.sohamkamani.com/javascript/enums/
@@ -21,3 +22,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constr
 
 ### Jest
 https://jestjs.io/docs/cli#--testnamepatternregex
+https://jestjs.io/docs/configuration
