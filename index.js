@@ -1,7 +1,11 @@
 // Classes
+const Employee = require("./lib/Employee");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+
+// Enumerations
+const EmployeeTypeEnum = require("./lib/EmployeeTypeEnum");
 
 // Node modules
 const inquirer = require("inquirer");
