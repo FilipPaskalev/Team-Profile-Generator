@@ -26,6 +26,7 @@ https://jestjs.io/docs/configuration
 
 ### inquirer
 https://github.com/sboudrias/Inquirer.js
+https://www.npmjs.com/package/inquirer/v/8.0.0
 
 ### Prettier
 https://prettier.io/docs/en/configuration.html
