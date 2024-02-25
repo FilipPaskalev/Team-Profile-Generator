@@ -2,7 +2,7 @@
   "name": "team-profile-generator",
   "description": "TODO - make a short description of the project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "lib": "lib"
   },
@@ -10,8 +10,11 @@
     "type": "git",
     "url": "https://github.com/FilipPaskalev/Team-Profile-Generator.git"
   },
+  "homepage": "https://filippaskalev.github.io/Team-Profile-Generator/",
+  "author": "Filip Paskalev",
+  "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "node app.js",
     "test": "jest --verbose",
     "test employee": "test Employee",
     "test engineer": "test Engineer",
@@ -31,15 +34,15 @@
     "tdd",
     "jsdoc"
   ],
-  "author": "Filip Paskalev",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FilipPaskalev/Team-Profile-Generator/issues"
   },
-  "homepage": "https://filippaskalev.github.io/Team-Profile-Generator/",
   "devDependencies": {
-    "inquirer": "^9.2.15",
+    "jsdoc": "^4.0.2",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
     "jest": "^29.7.0",
-    "jsdoc": "^4.0.2"
+    "inquirer": "^8.0.0"
   }
 }

@@ -1,0 +1,5 @@
+# Ignore all MarkDowns filse:
+**/*.md
+
+# Ignore all HTML files:
+**/*.html
