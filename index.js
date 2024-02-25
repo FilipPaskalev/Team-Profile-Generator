@@ -46,6 +46,41 @@ function createTeam() {
     });
 }
 
+function addEngineer() {
+  inquirer
+    .prompt([
+      {
+        type: "input",
+        name: "name",
+        message: "What is the engineer's name?",
+      },
+      {
+        type: "input",
+        name: "id",
+        message: "What is the engineer's ID?",
+      },
+      {
+        type: "input",
+        name: "email",
+        message: "What is the engineer's email?",
+      },
+      {
+        type: "input",
+        name: "github",
+        message: "What is the engineer's GitHub username?",
+      },
+    ])
+    .then((answers) => {
+      const engineer = new Engineer(
+        answers.name,
+        answers.id,
+        answers.email,
+        answers.github
+      );
+      team.push(engineer);
+    });
+}
+
 function addManager() {
   inquirer
     .prompt([
@@ -78,7 +113,6 @@ function addManager() {
         answers.officeNumber
       );
       team.push(manager);
-      createTeam();
     });
 }
 // TODO additional (not requirement) - consider adding validation to ensure that user input is in the proper format.
