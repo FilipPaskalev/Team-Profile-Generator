@@ -17,7 +17,36 @@ const render = require("./src/page-template.js");
 let team = [];
 
 // TODO: Write Code to gather information about the development team members
-function createManager() {
+
+function createTeam() {
+  inquirer
+    .prompt([
+      {
+        type: "list",
+        name: "role",
+        message: "What is the employee's role?",
+        choices: ["Engineer", "Intern", "Manager"],
+      },
+    ])
+    .then((answers) => {
+      switch (answers.role) {
+        case "Engineer":
+          addEngineer();
+          break;
+        case "Intern":
+          addIntern();
+          break;
+        case "Manager":
+          addManager();
+          break;
+        default:
+          console.log("Team created!");
+          fs.writeFileSync(outputPath, render(team), "utf-8");
+      }
+    });
+}
+
+function addManager() {
   inquirer
     .prompt([
       {
