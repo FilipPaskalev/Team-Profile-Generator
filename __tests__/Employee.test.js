@@ -1,5 +1,5 @@
-const Employee = require("../lib/Employee");
-const EnumEmployeeType = require("../lib/EnumEmployeeType");
+const Employee = require("../lib/employees/Employee");
+const EnumEmployeeType = require("../lib/enum/EnumEmployeeType");
 
 test("Can instantiate Employee instance", () => {
   const employee = new Employee();

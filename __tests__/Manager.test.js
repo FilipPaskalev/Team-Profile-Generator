@@ -1,5 +1,5 @@
-const Manager = require("../lib/Manager");
-const EnumEmployeeType = require("../lib/EnumEmployeeType");
+const Manager = require("../lib/employees/Manager");
+const EnumEmployeeType = require("../lib/enum/EnumEmployeeType");
 
 test("Can set office number via constructor argument", () => {
   const testValue = 100;

@@ -1,5 +1,5 @@
-const Engineer = require("../lib/Engineer");
-const EnumEmployeeType = require("../lib/EnumEmployeeType");
+const Engineer = require("../lib/employees/Engineer");
+const EnumEmployeeType = require("../lib/enum/EnumEmployeeType");
 
 test("Can set GitHUb account via constructor", () => {
   const testValue = "GitHubUser";

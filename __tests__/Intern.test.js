@@ -1,5 +1,5 @@
-const Intern = require("../lib/Intern");
-const EnumEmployeeType = require("../lib/EnumEmployeeType");
+const Intern = require("../lib/employees/Intern");
+const EnumEmployeeType = require("../lib/enum/EnumEmployeeType");
 
 test("Can set school via constructor", () => {
   const testValue = "University of Birmingham";
