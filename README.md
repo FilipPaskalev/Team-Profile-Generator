@@ -105,9 +105,11 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 [Link 1](https://github.com/sboudrias/Inquirer.js) | 
 [Link 2](https://www.npmjs.com/package/inquirer/v/8.0.0) 
 
-[Link 9]()
-[Link 10]()
-[Link 11]()
+[Link 9](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts)
+
+[Link 10](https://github.com/SBoudrias/Inquirer.js#plugins)
+
+[Link 11](https://github.com/SBoudrias/Inquirer.js/blob/master/packages/inquirer/README.md)
 [Link 12]()
 [Link 13]()
 [Link 14]()
