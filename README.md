@@ -103,6 +103,12 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 
 Contributions to this project are welcome. Feel free to submit bug reports, feature requests, or pull requests.
 
+## Questions
+
+If you have any questions about this projects, please contact me directly at paskalevFilip@gmail.com. You can view more of my projects at [https://github.com/FilipPaskalev](https://github.com/FilipPaskalev).
+
 ## License
 
-This project is licensed under the MIT License.
+<img title="a title" alt="Alt text" src="./readme/mit-photo.png">
+
+This project is licensed under the MIT License, you can find link to the license  [here](https://github.com/FilipPaskalev/Team-Profile-Generator/blob/main/LICENSE).
