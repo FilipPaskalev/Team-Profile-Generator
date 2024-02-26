@@ -56,6 +56,8 @@ This application utilizes classes for each team member:
 
 ```Intern```: Extends Employee with an additional property for **school** and an **overridden getRole** method.
 
+```AppEngine```: Singleton that runs all operation for the app.
+
 ## Tests
 
 Unit tests for each class are provided in the ```__tests__``` directory. Ensure that all tests pass using ```Jest```.
