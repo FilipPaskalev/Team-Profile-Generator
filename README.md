@@ -146,7 +146,7 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 
 ### Bootstrap
 [Link 1](https://getbootstrap.com/docs/4.0/utilities/spacing/)
-[Link 1]()
+[Link 2](https://getbootstrap.com/docs/4.3/utilities/sizing/)
 [Link 1]()
 [Link 1]()
 [Link 1]()

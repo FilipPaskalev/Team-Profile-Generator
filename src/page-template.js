@@ -4,19 +4,22 @@ const EnumEmployeeType = require('../lib/enum/EnumEmployeeType');
 const generateTeam = (team) => {
   // creates the manager html
   const generateManager = (manager) => {
-    let managerCardHtmlTemplate = `<div class="card employee-card">
-    <div class="card-header">
-      <h2 class="card-title">{{name}}</h2>
-      <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>{{role}}</h3>
-    </div>
-    <div class="card-body">
-      <ul class="list-group">
-        <li class="list-group-item">ID: {{id}}</li>
-        <li class="list-group-item">Email: <a href="mailto:{{email}}">{{email}}</a></li>
-        <li class="list-group-item">Office number: {{officeNumber}}</li>
-      </ul>
-    </div>
-  </div>`;
+    let managerCardHtmlTemplate = `
+    <div class="card employee-card mr-2 ml-2">
+      <div class="card-header d-flex flex-column align-items-stretch justify-content-between" style="min-height: 180px;">
+        <h2 class="card-title w-100 flex-grow-1">{{name}}</h2>
+        <h3 class="card-title w-100 flex-grow-1">
+          <i class="fas fa-mug-hot mr-2"></i>{{role}}
+        </h3>
+      </div>
+      <div class="card-body">
+        <ul class="list-group">
+          <li class="list-group-item">ID: {{id}}</li>
+          <li class="list-group-item">Email: <a href="mailto:{{email}}">{{email}}</a></li>
+          <li class="list-group-item">Office number: {{officeNumber}}</li>
+        </ul>
+      </div>
+    </div>`;
 
     try {
       managerCardHtmlTemplate = managerCardHtmlTemplate
@@ -34,20 +37,22 @@ const generateTeam = (team) => {
 
   // creates the html for engineers
   const generateEngineer = (engineer) => {
-    let engineerCartHtmlTemplate = `<div class="card employee-card mr-2 ml-2">
-  <div class="card-header">
-    <h2 class="card-title">{{name}}</h2>
-    <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>{{role}}</h3>
-  </div>
-  <div class="card-body">
-    <ul class="list-group">
-      <li class="list-group-item">ID: {{id}}</li>
-      <li class="list-group-item">Email:<a href="mailto:{{email}}">{{email}}</a></li>
-      <li class="list-group-item">GitHub: <a href="https://github.com/{{github}}" target="_blank"
-          rel="noopener noreferrer">{{github}}</a></li>
-    </ul>
-  </div>
-</div>`;
+    let engineerCartHtmlTemplate = `
+    <div class="card employee-card mr-2 ml-2">
+      <div class="card-header d-flex flex-column align-items-stretch justify-content-between" style="min-height: 180px;">
+        <h2 class="card-title w-100 flex-grow-1">{{name}}</h2>
+        <h3 class="card-title w-100 flex-grow-1">
+          <i class="fas fa-glasses mr-2"></i>{{role}}
+        </h3>
+      </div>
+      <div class="card-body">
+        <ul class="list-group">
+          <li class="list-group-item">ID: {{id}}</li>
+          <li class="list-group-item">Email:<a href="mailto:{{email}}">{{email}}</a></li>
+          <li class="list-group-item">GitHub: <a href="https://github.com/{{github}}" target="_blank" rel="noopener noreferrer">{{github}}</a></li>
+        </ul>
+      </div>
+    </div>`;
 
     try {
       engineerCartHtmlTemplate = engineerCartHtmlTemplate
@@ -65,19 +70,22 @@ const generateTeam = (team) => {
 
   // creates the html for interns
   const generateIntern = (intern) => {
-    let internCardHtmlTemplate = `<div class="card employee-card">
-    <div class="card-header">
-      <h2 class="card-title">{{name}}</h2>
-      <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>{{role}}</h3>
-    </div>
-    <div class="card-body">
-      <ul class="list-group">
-        <li class="list-group-item">ID: {{id}}</li>
-        <li class="list-group-item">Email: <a href="mailto:{{email}}">{{email}}</a></li>
-        <li class="list-group-item">School: {{school}}</li>
-      </ul>
-    </div>
-  </div>`;
+    let internCardHtmlTemplate = `
+    <div class="card employee-card mr-2 ml-2">
+      <div class="card-header d-flex flex-column align-items-stretch justify-content-between" style="min-height: 180px;">
+        <h2 class="card-title w-100 flex-grow-1">{{name}}</h2>
+        <h3 class="card-title w-100 flex-grow-1">
+          <i class="fas fa-user-graduate mr-2"></i>{{role}}
+        </h3>
+      </div>
+      <div class="card-body">
+        <ul class="list-group">
+          <li class="list-group-item">ID: {{id}}</li>
+          <li class="list-group-item">Email: <a href="mailto:{{email}}">{{email}}</a></li>
+          <li class="list-group-item">School: {{school}}</li>
+        </ul>
+      </div>
+    </div>`;
 
     try {
       internCardHtmlTemplate = internCardHtmlTemplate
