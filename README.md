@@ -24,6 +24,9 @@ I want to be able to:
 - Automatically generates an HTML webpage based on the provided information.
 - Includes tests to ensure the correctness and functionality of the application.
 
+## Mock-up
+![mock-up](./assets/14-object-oriented-programming-challenge-demo.png)
+
 ## Technologies
 - [Node.js *v21.6.1*](https://nodejs.org/en)
 - [Inquirer *v8.0.0*](https://www.npmjs.com/package/inquirer/v/8.0.0#documentation)
