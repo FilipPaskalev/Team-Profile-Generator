@@ -21,4 +21,4 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 const appEngine = AppEngine.getInstance();
 
 // Start the app
-appEngine.start();
+appEngine.startTerminalApp();
