@@ -1,10 +1,20 @@
 // Classes
 const AppEngine = require('./lib/engine/AppEngine');
 
-// Create a new instance of the AppEngine
-const appEngine = AppEngine.getInstance();
+try {
+  // Create a new instance of the AppEngine
+  const appEngine = AppEngine.getInstance();
 
-appEngine.prepareOutputDir();
-
-// Start the app
-appEngine.startTerminalApp();
+  // Prepare the output directory
+  appEngine
+    .prepareOutputDir()
+    .then(() => {
+      // Start the app
+      appEngine.startTerminalApp();
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+} catch (err) {
+  console.log(err);
+}
