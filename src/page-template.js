@@ -1,4 +1,4 @@
-const fs = require('fs');
+const EnumEmployeeType = require('../lib/enum/EnumEmployeeType');
 
 // creates the team
 const generateTeam = (team) => {
@@ -95,16 +95,20 @@ const generateTeam = (team) => {
 
   const html = [];
 
-  html.push(team.filter((employee) => employee.getRole() === 'Manager').map((manager) => generateManager(manager)));
   html.push(
     team
-      .filter((employee) => employee.getRole() === 'Engineer')
+      .filter((employee) => employee.getRole() === EnumEmployeeType.MANAGER)
+      .map((manager) => generateManager(manager))
+  );
+  html.push(
+    team
+      .filter((employee) => employee.getRole() === EnumEmployeeType.ENGINEER)
       .map((engineer) => generateEngineer(engineer))
       .join('')
   );
   html.push(
     team
-      .filter((employee) => employee.getRole() === 'Intern')
+      .filter((employee) => employee.getRole() === EnumEmployeeType.INTERN)
       .map((intern) => generateIntern(intern))
       .join('')
   );
