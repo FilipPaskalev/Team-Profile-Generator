@@ -78,17 +78,39 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 [Link 4](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) | 
 [Link 5](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set) | 
 [Link 6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks) | 
-[Link 7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor#examples)
+[Link 7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor#examples) |
+[Link 8](https://stackoverflow.com/questions/21194934/how-to-create-a-directory-if-it-doesnt-exist-using-node-js) |
+[Link 9](https://stackoverflow.com/questions/13696148/node-js-create-folder-or-use-existing) |
+
+[Link 10]()
+[Link 11]()
+[Link 12]()
+[Link 13]()
+[Link 14]()
 
 ### Jest
 
 [Link 1](https://jestjs.io/docs/cli#--testnamepatternregex) | 
 [Link 2](https://jestjs.io/docs/configuration) 
 
+[Link 9]()
+[Link 10]()
+[Link 11]()
+[Link 12]()
+[Link 13]()
+[Link 14]()
+
 ### inquirer
 
 [Link 1](https://github.com/sboudrias/Inquirer.js) | 
 [Link 2](https://www.npmjs.com/package/inquirer/v/8.0.0) 
+
+[Link 9]()
+[Link 10]()
+[Link 11]()
+[Link 12]()
+[Link 13]()
+[Link 14]()
 
 ### Prettier
 
@@ -98,6 +120,13 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 [Link 4](html#:~:text=For%20readability%20we%20recommend%20against,up%20long%20lines%20for%20readability.) | 
 [Link 5](https://stackoverflow.com/questions/45404823/how-to-remove-semicolons-in-prettier) | 
 [Link 6](https://prettier.io/docs/en/ignore.html) 
+
+[Link 9]()
+[Link 10]()
+[Link 11]()
+[Link 12]()
+[Link 13]()
+[Link 14]()
 
 ## Contributing
 
