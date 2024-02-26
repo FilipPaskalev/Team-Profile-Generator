@@ -132,9 +132,18 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 
 ### Chalk
 [link 1](https://www.npmjs.com/package/chalk)
+[Link 2](https://github.com/chalk/chalk)
+[link 3](https://github.com/chalk/chalk#readme)
+[Link 4](https://stackoverflow.com/questions/70309135/chalk-error-err-require-esm-require-of-es-module)
+[Link 5](https://www.npmjs.com/package/chalk/v/4.1.2)
 []()
 []()
 []()
+[]()
+
+### NPM
+[Link 1](https://codedamn.com/news/nodejs/remove-npm-package)
+[Link 2](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
 
 ## Contributing
 
