@@ -83,11 +83,9 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 [Link 7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor#examples) |
 [Link 8](https://stackoverflow.com/questions/21194934/how-to-create-a-directory-if-it-doesnt-exist-using-node-js) |
 [Link 9](https://stackoverflow.com/questions/13696148/node-js-create-folder-or-use-existing) |
-
 [Link 10](https://nodejs.org/en/learn/manipulating-files/reading-files-with-nodejs)
-
-[Link 11]()
-[Link 12]()
+[Link 11](https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript)
+[Link 12](https://emaillistvalidation.com/blog/email-validation-in-javascript-using-regular-expressions-the-ultimate-guide/)
 [Link 13]()
 [Link 14]()
 
