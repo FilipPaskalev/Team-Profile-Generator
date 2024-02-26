@@ -1,23 +1,34 @@
-const Manager = require("../lib/employees/Manager");
-const EnumEmployeeType = require("../lib/enum/EnumEmployeeType");
+const Intern = require('../lib/employees/Intern');
+const EnumEmployeeType = require('../lib/enum/EnumEmployeeType');
 
-test("Can set office number via constructor argument", () => {
-  const testValue = 100;
-  const employee = new Manager("Lily", 1, "lily@gmail.com", testValue);
+test('Can set school via constructor', () => {
+  const testInternName = 'John';
+  const testInternId = 1;
+  const testInternEmail = 'john@gmail.com';
+  const testInternSchool = 'University of Birmingham';
 
-  expect(employee.officeNumber).toBe(testValue);
+  const employee = new Intern(testInternName, testInternId, testInternEmail, testInternSchool);
+
+  expect(employee.school).toBe(testInternSchool);
 });
 
-test(`getRole() should return "${EnumEmployeeType.MANAGER}"`, () => {
-  const testValue = EnumEmployeeType.MANAGER;
-  const employee = new Manager("Lily", 1, "lily@gmail.com", 100);
+test(`getRole() should return "${EnumEmployeeType.INTERN}"`, () => {
+  const testInternName = 'John';
+  const testInternId = 1;
+  const testInternEmail = 'john@gmail.com';
 
-  expect(employee.getRole()).toBe(testValue);
+  const employee = new Intern(testInternName, testInternId, testInternEmail, 'UCLA');
+
+  expect(employee.getRole()).toBe(EnumEmployeeType.INTERN);
 });
 
-test("Can get office number via getOffice()", () => {
-  const testValue = 100;
-  const employee = new Manager("Lily", 1, "lily@gmail.com", testValue);
+test('Can get school via getSchool()', () => {
+  const testInternName = 'John';
+  const testInternId = 1;
+  const testInternEmail = 'john@gmail.com';
+  const testInternSchool = 'University of Birmingham';
 
-  expect(employee.getOfficeNumber()).toBe(testValue);
+  const employee = new Intern(testInternName, testInternId, testInternEmail, testInternSchool);
+
+  expect(employee.getSchool()).toBe(testInternSchool);
 });

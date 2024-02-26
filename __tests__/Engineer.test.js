@@ -1,28 +1,25 @@
-const Engineer = require("../lib/employees/Engineer");
-const EnumEmployeeType = require("../lib/enum/EnumEmployeeType");
+const Engineer = require('../lib/employees/Engineer');
+const EnumEmployeeType = require('../lib/enum/EnumEmployeeType');
 
-test("Can set GitHUb account via constructor", () => {
-  const testValue = "GitHubUser";
-  const employee = new Engineer("Muhammad", 1, "muhammad@gmail.com", testValue);
+const testEngineerName = 'Muhammad';
+const testEngineerId = 1;
+const testEngineerEmail = 'muhammad@gmail.com';
+const testEngineerGithub = 'GitHubUser';
 
-  expect(employee.github).toBe(testValue);
+test('Can set GitHUb account via constructor', () => {
+  const employee = new Engineer(testEngineerName, testEngineerId, testEngineerEmail, testEngineerGithub);
+
+  expect(employee.github).toBe(testEngineerGithub);
 });
 
 test(`getRole() should return "${EnumEmployeeType.ENGINEER}"`, () => {
-  const testValue = EnumEmployeeType.ENGINEER;
-  const employee = new Engineer(
-    "Muhammad",
-    1,
-    "muhammad@gmail.com",
-    "GitHubUser"
-  );
+  const employee = new Engineer(testEngineerName, testEngineerId, testEngineerEmail, testEngineerGithub);
 
-  expect(employee.getRole()).toBe(testValue);
+  expect(employee.getRole()).toBe(EnumEmployeeType.ENGINEER);
 });
 
-test("Can get GitHub username via getGithub()", () => {
-  const testValue = "GitHubUser";
-  const employee = new Engineer("Muhammad", 1, "muhammad@gmail.com", testValue);
+test('Can get GitHub username via getGithub()', () => {
+  const employee = new Engineer(testEngineerName, testEngineerId, testEngineerEmail, testEngineerGithub);
 
-  expect(employee.getGithub()).toBe(testValue);
+  expect(employee.getGithub()).toBe(testEngineerGithub);
 });
