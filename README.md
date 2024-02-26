@@ -86,7 +86,13 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 [Link 10](https://nodejs.org/en/learn/manipulating-files/reading-files-with-nodejs)
 [Link 11](https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript)
 [Link 12](https://emaillistvalidation.com/blog/email-validation-in-javascript-using-regular-expressions-the-ultimate-guide/)
-[Link 13]()
+[Link 13](https://woocoders.com/how-to-validate-email-in-js/)
+[Link 14](https://www.youtube.com/watch?v=UQnEWtA9l1A)
+[Link 14](https://javascript.plainenglish.io/validate-phone-number-in-javascript-9528fa93a7f0)
+[Link 14](https://www.javascript-coder.com/form-validation/javascript-form-validation-phone-number/)
+[Link 14](https://stackoverflow.com/questions/4338267/validate-phone-number-with-javascript)
+[Link 14]()
+[Link 14]()
 [Link 14]()
 
 ### Jest
