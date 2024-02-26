@@ -1,57 +1,54 @@
-const Employee = require("../lib/employees/Employee");
-const EnumEmployeeType = require("../lib/enum/EnumEmployeeType");
+const Employee = require('../lib/employees/Employee');
+const EnumEmployeeType = require('../lib/enum/EnumEmployeeType');
 
-test("Can instantiate Employee instance", () => {
+const testEmployeeName = 'Alice';
+const testEmployeeId = 100;
+const testEmployeeEmail = 'alice@gmail.com';
+
+test('Can instantiate Employee instance', () => {
   const employee = new Employee();
 
-  expect(typeof employee).toBe("object");
+  expect(typeof employee).toBe('object');
 });
 
-test("Can set name via constructor arguments", () => {
-  const name = "Alice";
-  const employee = new Employee(name);
+test('Can set name via constructor arguments', () => {
+  const employee = new Employee(testEmployeeName);
 
-  expect(employee.name).toBe(name);
+  expect(employee.name).toBe(testEmployeeName);
 });
 
-test("Can set id via constructor argument", () => {
-  const testValue = 100;
-  const employee = new Employee("Alice", testValue);
+test('Can set id via constructor argument', () => {
+  const employee = new Employee(testEmployeeName, testEmployeeId);
 
-  expect(employee.id).toBe(testValue);
+  expect(employee.id).toBe(testEmployeeId);
 });
 
-test("Can set email via constructor argument", () => {
-  const testValue = "alica@gmail.com";
-  const employee = new Employee("Alice", 1, testValue);
+test('Can set email via constructor argument', () => {
+  const employee = new Employee(testEmployeeName, testEmployeeId, testEmployeeEmail);
 
-  expect(employee.email).toBe(testValue);
+  expect(employee.email).toBe(testEmployeeEmail);
 });
 
-test("Can get name via getName()", () => {
-  const testValue = "Alice";
-  const employee = new Employee(testValue);
+test('Can get name via getName()', () => {
+  const employee = new Employee(testEmployeeName);
 
-  expect(employee.getName()).toBe(testValue);
+  expect(employee.getName()).toBe(testEmployeeName);
 });
 
-test("Can get id via getId()", () => {
-  const testValue = 100;
-  const employee = new Employee("Alice", testValue);
+test('Can get id via getId()', () => {
+  const employee = new Employee(testEmployeeName, testEmployeeId);
 
-  expect(employee.getId()).toBe(testValue);
+  expect(employee.getId()).toBe(testEmployeeId);
 });
 
-test("Can get email via getEmail()", () => {
-  const testValue = "alica@gmail.com";
-  const employee = new Employee("Alice", 1, testValue);
+test('Can get email via getEmail()', () => {
+  const employee = new Employee(testEmployeeName, testEmployeeId, testEmployeeEmail);
 
-  expect(employee.getEmail()).toBe(testValue);
+  expect(employee.getEmail()).toBe(testEmployeeEmail);
 });
 
 test(`getRole() should return "${EnumEmployeeType.EMPLOYEE}"`, () => {
-  const testValue = EnumEmployeeType.EMPLOYEE;
-  const employee = new Employee("Alice", 1, "alica@gmail.com");
+  const employee = new Employee(testEmployeeName, testEmployeeId, testEmployeeEmail);
 
-  expect(employee.getRole()).toBe(testValue);
+  expect(employee.getRole()).toBe(EnumEmployeeType.EMPLOYEE);
 });

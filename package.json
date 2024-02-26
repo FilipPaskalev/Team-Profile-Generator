@@ -19,7 +19,8 @@
     "test employee": "test Employee",
     "test engineer": "test Engineer",
     "test intern": "test Intern",
-    "test manager": "test Manager"
+    "test manager": "test Manager",
+    "test appEngine": "test AppEngine"
   },
   "keywords": [
     "node.js",

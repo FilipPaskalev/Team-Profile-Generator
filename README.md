@@ -101,8 +101,7 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 
 [Link 1](https://jestjs.io/docs/cli#--testnamepatternregex) | 
 [Link 2](https://jestjs.io/docs/configuration) 
-
-[Link 9]()
+[Link 9](https://jestjs.io/docs/setup-teardown)
 [Link 10]()
 [Link 11]()
 [Link 12]()
