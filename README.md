@@ -25,16 +25,16 @@ I want to be able to:
 - Includes tests to ensure the correctness and functionality of the application.
 
 ## Technologies
-- Node.js
-- Inquirer
-- Jest
-- HTML
-- Bootstrap
-- CSS
-- JavaScript
-- Prettier
-- Git
-- JSDoc
+- [Node.js *v21.6.1*](https://nodejs.org/en)
+- [Inquirer *v8.0.0*](https://www.npmjs.com/package/inquirer/v/8.0.0#documentation)
+- [Jest *v29.7.0*](https://jestjs.io/)
+- [HTML](https://html.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JavaScript](https://www.javascript.com/)
+- [Prettier *v3.2.5*](https://prettier.io/)
+- [Git](https://git-scm.com/)
+- [JSDoc *v4.0.2*](https://jsdoc.app/)
 
 ## Usage
 
@@ -48,13 +48,13 @@ I want to be able to:
 ## Classes
 This application utilizes classes for each team member:
 
-```Employee```: Parent class with properties and methods for name, ID, email, and role.
+```Employee```: Parent class with properties and methods for **name**, **ID**, **email**, and **role**.
 
-```Manager```: Extends Employee with an additional property for office number and an overridden getRole() method.
+```Manager```: Extends Employee with an additional property for **office number** and an **overridden getRole()** method.
 
-```Engineer```: Extends Employee with an additional property for GitHub username and an overridden getRole() method.
+```Engineer```: Extends Employee with an additional property for **GitHub username** and an **overridden getRole()** method.
 
-```Intern```: Extends Employee with an additional property for school and an overridden getRole() method.
+```Intern```: Extends Employee with an additional property for **school** and an **overridden getRole** method.
 
 ## Tests
 
