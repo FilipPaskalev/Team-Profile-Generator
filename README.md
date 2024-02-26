@@ -69,6 +69,8 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 [Link 3](https://docs.npmjs.com/cli/v6/commands/npm-test) | 
 [Link 4](https://docs.npmjs.com/cli/v6/commands/npm-start) | 
 [Link 5](https://www.knowledgehut.com/blog/web-development/package-json-scripts-node-js)
+[Link 1](https://codedamn.com/news/nodejs/remove-npm-package)
+[Link 2](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
 
 ### JavaScript
 
@@ -82,7 +84,8 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 [Link 8](https://stackoverflow.com/questions/21194934/how-to-create-a-directory-if-it-doesnt-exist-using-node-js) |
 [Link 9](https://stackoverflow.com/questions/13696148/node-js-create-folder-or-use-existing) |
 
-[Link 10]()
+[Link 10](https://nodejs.org/en/learn/manipulating-files/reading-files-with-nodejs)
+
 [Link 11]()
 [Link 12]()
 [Link 13]()
@@ -141,9 +144,15 @@ Unit tests for each class are provided in the ```__tests__``` directory. Ensure 
 []()
 []()
 
-### NPM
-[Link 1](https://codedamn.com/news/nodejs/remove-npm-package)
-[Link 2](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
+### Bootstrap
+[Link 1](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+[Link 1]()
+[Link 1]()
+[Link 1]()
+[Link 1]()
+[Link 1]()
+[Link 1]()
+[Link 1]()
 
 ## Contributing
 
