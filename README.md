@@ -1,5 +1,43 @@
 # Team-Profile-Generator
 
+[![jest](https://img.shields.io/badge/jest-gray?style=for-the-badge&logo=jest)](https://jestjs.io/) [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/Overview.en.html) [![JSDoc](https://img.shields.io/badge/JSDoc-4.0.2-green?style=for-the-badge&logo=npm)](https://jsdoc.app/) [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.com/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com) [![Chalk](https://img.shields.io/badge/Chalck-4.1.0-green?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/chalk) [![edX](https://img.shields.io/badge/edx-black?style=for-the-badge&logo=edX&link=https://www.edx.org/)](https://www.edx.org/) [![Inquirer](https://img.shields.io/badge/Inquirer-8.0.0-green?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/inquirer) [![prettier](https://img.shields.io/badge/prettier-gray?style=for-the-badge&logo=prettier)](https://prettier.io/) [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=mit)](https://opensource.org/license/mit) [![Git](https://img.shields.io/badge/Git-gray?style=for-the-badge&logo=git)](https://git-scm.com/) 
+[![github](https://img.shields.io/badge/github-gray?style=for-the-badge&logo=github)](https://github.com/)
+
+- [Team-Profile-Generator](#team-profile-generator)
+  - [Description](#description)
+    - [User story](#user-story)
+      - [I want to be able to](#i-want-to-be-able-to)
+      - [Features](#features)
+    - [Visual presentation](#visual-presentation)
+      - [Mock-Up](#mock-up)
+      - [App photos](#app-photos)
+      - [Tests](#tests)
+      - [Terminal app video preview](#terminal-app-video-preview)
+  - [Technologies](#technologies)
+  - [Usage](#usage)
+  - [Installation](#installation)
+    - [Option 1 - Download](#option-1---download)
+    - [Option 2 - Clone project](#option-2---clone-project)
+  - [Classes](#classes)
+  - [Tests](#tests-1)
+  - [Resources](#resources)
+    - [NPM](#npm)
+    - [JavaScript](#javascript)
+    - [Jest](#jest)
+    - [inquirer](#inquirer)
+    - [Prettier](#prettier)
+    - [Chalk](#chalk)
+    - [Bootstrap](#bootstrap)
+  - [Dependencies](#dependencies)
+    - [JSDoc](#jsdoc)
+    - [Prettier](#prettier-1)
+    - [Chalk](#chalk-1)
+    - [inquirer](#inquirer-1)
+    - [Jest](#jest-1)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
+  - [License](#license)
+
 ## Description
 
 This Node.js command-line application allows you to generate a webpage that displays basic information about your software engineering team. It prompts the user to input details about the team members, including the manager, engineers, and interns, and then generates an HTML file based on the provided information.
@@ -8,7 +46,7 @@ This Node.js command-line application allows you to generate a webpage that disp
 
 As a team manager, I require a convenient way to compile and access essential information about my software engineering team. This tool enables me to swiftly generate a webpage displaying key details, such as names, roles, email addresses, and GitHub profiles, for each team member. This streamlines communication and collaboration within the team, enhancing productivity and efficiency.
 
-I want to be able to:
+#### I want to be able to
 
 - Input the details of the team manager, including their name, employee ID, email address, and office number.
 - Add engineers to the team, including their name, ID, email, and GitHub username.
@@ -16,7 +54,7 @@ I want to be able to:
 - Finish building the team when all necessary members have been added.
 - Have an HTML file generated automatically containing all the team members' information, which I can refer to later for reference.
 
-### Features
+#### Features
 
 - Utilizes Node.js for command-line interface.
 - Prompts users for information about each team member.
@@ -38,7 +76,7 @@ I want to be able to:
 
 ![test-screenshot](./assets/screenshot-tests.png)
 
-#### terminal app video preview
+#### Terminal app video preview
 
 ![terminal-app-video](./assets/add-employee-from-terminal.gif)
 
@@ -145,8 +183,6 @@ This application utilizes classes for each team member:
 ## Tests
 
 Unit tests for each class are provided in the ```__tests__``` directory. Ensure that all tests pass using ```Jest```.
-
-### Preview
 
 ```
 > team-profile-generator@1.0.0 test
@@ -256,8 +292,6 @@ Ran all test suites.
 ### JSDoc
 
 [JSDoc 3](https://jsdoc.app/about-getting-started) is an API documentation generator for JavaScript, similar to Javadoc. You add documentation comments directly to your source code, right alongside the code itself. The JSDoc tool will scan your source code and generate an HTML documentation website for you.
-
-#### Adding documentation comments to your code
 
 JSDoc's purpose is to document the API of your JavaScript application or library. It is assumed that you will want to document things like modules, namespaces, classes, methods, method parameters, and so on.
 
