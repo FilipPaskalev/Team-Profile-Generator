@@ -16,7 +16,7 @@ I want to be able to:
 - Finish building the team when all necessary members have been added.
 - Have an HTML file generated automatically containing all the team members' information, which I can refer to later for reference.
 
-## Features
+### Features
 
 - Utilizes Node.js for command-line interface.
 - Prompts users for information about each team member.
@@ -24,7 +24,14 @@ I want to be able to:
 - Automatically generates an HTML webpage based on the provided information.
 - Includes tests to ensure the correctness and functionality of the application.
 
-## Mock-up
+### Visual presentation
+
+#### Mock-Up
+
+![mock-up](./assets/14-object-oriented-programming-challenge-demo.png)
+
+#### App photos
+
 ![mock-up](./assets/14-object-oriented-programming-challenge-demo.png)
 
 ## Technologies
