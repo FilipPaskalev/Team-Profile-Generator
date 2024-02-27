@@ -20,6 +20,10 @@
     "Rivendell",
     "Chalck",
     "github",
-    "lock"
+    "lock",
+    "prettierignore",
+    "json",
+    "enum",
+    "src"
   ]
 }

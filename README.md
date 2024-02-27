@@ -13,7 +13,6 @@
       - [App photos](#app-photos)
       - [Tests](#tests)
       - [Terminal app video preview](#terminal-app-video-preview)
-  - [Technologies](#technologies)
   - [Usage](#usage)
   - [Installation](#installation)
     - [Option 1 - Download](#option-1---download)
@@ -34,7 +33,12 @@
     - [Chalk](#chalk-1)
     - [inquirer](#inquirer-1)
     - [Jest](#jest-1)
+  - [Technologies](#technologies)
   - [Project structure](#project-structure)
+  - [Statistics](#statistics)
+    - [Files](#files)
+    - [Languages](#languages)
+    - [Directories](#directories)
   - [Contributing](#contributing)
   - [Questions](#questions)
   - [License](#license)
@@ -80,18 +84,6 @@ As a team manager, I require a convenient way to compile and access essential in
 #### Terminal app video preview
 
 ![terminal-app-video](./assets/add-employee-from-terminal.gif)
-
-## Technologies
-- [Node.js *v21.6.1*](https://nodejs.org/en)
-- [Inquirer *v8.0.0*](https://www.npmjs.com/package/inquirer/v/8.0.0#documentation)
-- [Jest *v29.7.0*](https://jestjs.io/)
-- [HTML](https://html.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-- [JavaScript](https://www.javascript.com/)
-- [Prettier *v3.2.5*](https://prettier.io/)
-- [Git](https://git-scm.com/)
-- [JSDoc *v4.0.2*](https://jsdoc.app/)
 
 ## Usage
 
@@ -338,6 +330,18 @@ Inquirer is an [NPM](https://www.npmjs.com/package/inquirer/v/9.2.15?activeTab=r
 Jest is well-documented, requires little configuration and can be extended to match your requirements.
 Jest makes testing delightful" - Jest Core Team
 
+## Technologies
+- [Node.js *v21.6.1*](https://nodejs.org/en)
+- [Inquirer *v8.0.0*](https://www.npmjs.com/package/inquirer/v/8.0.0#documentation)
+- [Jest *v29.7.0*](https://jestjs.io/)
+- [HTML](https://html.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JavaScript](https://www.javascript.com/)
+- [Prettier *v3.2.5*](https://prettier.io/)
+- [Git](https://git-scm.com/)
+- [JSDoc *v4.0.2*](https://jsdoc.app/)
+- 
 ## Project structure
 
 ```
@@ -371,6 +375,55 @@ Jest makes testing delightful" - Jest Core Team
         Intern.test.js
         Manager.test.js
 ```
+
+## Statistics
+
+### Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [.prettierignore](/.prettierignore) | Ignore | 2 | 2 | 1 | 5 |
+| [.prettierrc.json](/.prettierrc.json) | JSON | 7 | 0 | 1 | 8 |
+| [README.md](/README.md) | Markdown | 285 | 0 | 102 | 387 |
+| [__tests__/Employee.test.js](/__tests__/Employee.test.js) | JavaScript | 37 | 0 | 18 | 55 |
+| [__tests__/Engineer.test.js](/__tests__/Engineer.test.js) | JavaScript | 18 | 0 | 8 | 26 |
+| [__tests__/Intern.test.js](/__tests__/Intern.test.js) | JavaScript | 18 | 0 | 8 | 26 |
+| [__tests__/Manager.test.js](/__tests__/Manager.test.js) | JavaScript | 25 | 0 | 10 | 35 |
+| [app.js](/app.js) | JavaScript | 14 | 4 | 3 | 21 |
+| [jest.config.js](/jest.config.js) | JavaScript | 5 | 139 | 55 | 199 |
+| [lib/employees/Employee.js](/lib/employees/Employee.js) | JavaScript | 22 | 43 | 7 | 72 |
+| [lib/employees/Engineer.js](/lib/employees/Engineer.js) | JavaScript | 24 | 42 | 5 | 71 |
+| [lib/employees/Intern.js](/lib/employees/Intern.js) | JavaScript | 24 | 45 | 5 | 74 |
+| [lib/employees/Manager.js](/lib/employees/Manager.js) | JavaScript | 24 | 48 | 5 | 77 |
+| [lib/engine/AppEngine.js](/lib/engine/AppEngine.js) | JavaScript | 309 | 247 | 32 | 588 |
+| [lib/engine/promptFilters.js](/lib/engine/promptFilters.js) | JavaScript | 4 | 0 | 2 | 6 |
+| [lib/engine/promptValidators.js](/lib/engine/promptValidators.js) | JavaScript | 43 | 0 | 9 | 52 |
+| [lib/enum/EnumEmployeeType.js](/lib/enum/EnumEmployeeType.js) | JavaScript | 7 | 0 | 2 | 9 |
+| [output/team.html](/output/team.html) | HTML | 103 | 0 | 4 | 107 |
+| [package-lock.json](/package-lock.json) | JSON | 4,054 | 0 | 1 | 4,055 |
+| [package.json](/package.json) | JSON | 49 | 0 | 1 | 50 |
+| [src/page-template.js](/src/page-template.js) | JavaScript | 144 | 5 | 13 | 162 |
+
+### Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| JSON | 3 | 4,110 | 0 | 3 | 4,113 |
+| JavaScript | 15 | 718 | 573 | 182 | 1,473 |
+| Markdown | 1 | 285 | 0 | 102 | 387 |
+| HTML | 1 | 103 | 0 | 4 | 107 |
+| Ignore | 1 | 2 | 2 | 1 | 5 |
+
+### Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 21 | 5,218 | 575 | 292 | 6,085 |
+| . (Files) | 7 | 4,416 | 145 | 164 | 4,725 |
+| __tests__ | 4 | 98 | 0 | 44 | 142 |
+| lib | 8 | 457 | 425 | 67 | 949 |
+| lib\\employees | 4 | 94 | 178 | 22 | 294 |
+| lib\\engine | 3 | 356 | 247 | 43 | 646 |
+| lib\\enum | 1 | 7 | 0 | 2 | 9 |
+| output | 1 | 103 | 0 | 4 | 107 |
+| src | 1 | 144 | 5 | 13 | 162 |
 
 ## Contributing
 
