@@ -33,6 +33,9 @@
     - [Chalk](#chalk-1)
     - [inquirer](#inquirer-1)
     - [Jest](#jest-1)
+  - [Tools and extensions](#tools-and-extensions)
+    - [Visual Studio Code](#visual-studio-code)
+    - [VS Code Counter](#vs-code-counter)
   - [Technologies](#technologies)
   - [Project structure](#project-structure)
   - [Statistics](#statistics)
@@ -329,6 +332,16 @@ Inquirer is an [NPM](https://www.npmjs.com/package/inquirer/v/9.2.15?activeTab=r
 > "[Jest](https://jestjs.io/) is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase. It allows you to write tests with an approachable, familiar and feature-rich API that gives you results quickly.
 Jest is well-documented, requires little configuration and can be extended to match your requirements.
 Jest makes testing delightful" - Jest Core Team
+
+## Tools and extensions
+
+### Visual Studio Code
+
+[Visual Studio Code](https://code.visualstudio.com/) is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtime (such as C++, C#, Java, Python, PHP, Go, .NET).
+
+### VS Code Counter
+
+[VS Code extension](https://marketplace.visualstudio.com/items?itemName=uctakeoff.vscode-counter) counts blank lines, comment lines, and physical lines of source code in many programming languages. This extension uses other language extensions to determine the line of code. Therefore, you may need to install the language extension to support a new language. Conversely, as the number of language extensions increases, the range of support for this feature also increases.
 
 ## Technologies
 - [Node.js *v21.6.1*](https://nodejs.org/en)
