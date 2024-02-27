@@ -34,6 +34,7 @@
     - [Chalk](#chalk-1)
     - [inquirer](#inquirer-1)
     - [Jest](#jest-1)
+  - [Project structure](#project-structure)
   - [Contributing](#contributing)
   - [Questions](#questions)
   - [License](#license)
@@ -336,6 +337,40 @@ Inquirer is an [NPM](https://www.npmjs.com/package/inquirer/v/9.2.15?activeTab=r
 > "[Jest](https://jestjs.io/) is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase. It allows you to write tests with an approachable, familiar and feature-rich API that gives you results quickly.
 Jest is well-documented, requires little configuration and can be extended to match your requirements.
 Jest makes testing delightful" - Jest Core Team
+
+## Project structure
+
+```
+|   app.js
+|   jest.config.js
+|   LICENSE
+|   package-lock.json
+|   package.json
+|   README.md
++---.vscode
++---assets
++---lib
+|   +---employees
+|   |       Employee.js
+|   |       Engineer.js
+|   |       Intern.js
+|   |       Manager.js
+|   +---engine
+|   |       AppEngine.js
+|   |       promptFilters.js
+|   |       promptValidators.js
+|   \---enum
+|           EnumEmployeeType.js
++---output
+|       team.html
++---src
+|       page-template.js
+\---__tests__
+        Employee.test.js
+        Engineer.test.js
+        Intern.test.js
+        Manager.test.js
+```
 
 ## Contributing
 
