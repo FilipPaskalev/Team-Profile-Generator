@@ -9,6 +9,7 @@
       - [I want to be able to](#i-want-to-be-able-to)
       - [Features](#features)
     - [Visual presentation](#visual-presentation)
+      - [Simple live demo](#simple-live-demo)
       - [Mock-Up](#mock-up)
       - [App photos](#app-photos)
       - [Tests](#tests)
@@ -71,6 +72,10 @@ As a team manager, I require a convenient way to compile and access essential in
 - Includes tests to ensure the correctness and functionality of the application.
 
 ### Visual presentation
+
+#### Simple live demo
+
+[Click here to open the demo](./output/team.html)
 
 #### Mock-Up
 
