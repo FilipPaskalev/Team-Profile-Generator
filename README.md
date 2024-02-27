@@ -75,7 +75,7 @@ As a team manager, I require a convenient way to compile and access essential in
 
 #### Simple live demo
 
-[Click here to open the demo](./output/team.html)
+[Click here to open the demo](https://filippaskalev.github.io/Team-Profile-Generator/)
 
 #### Mock-Up
 
